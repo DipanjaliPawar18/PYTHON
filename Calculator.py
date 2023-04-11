@@ -1,7 +1,7 @@
 # Calculator
 a = input("enter first number:")
 b = input("enter second number:")
-ch = input(int("enter the choice:"))
+ch = int(input("enter the choice:"))
 if ch==1 :
     print(a+b)
 elif ch==2 :
